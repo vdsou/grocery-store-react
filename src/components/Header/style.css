@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 9%;
+}
+.header .logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--black);
+}
+.header .logo i {
+  color: var(--orange);
+  margin-right: 0.5rem;
+}
+.header .navbar a {
+  display: inline-block;
+  color: var(--black);
+  font-size: 1.7rem;
+  margin: 0 1rem;
+}
+.header .navbar a:hover {
+  color: var(--orange);
+}
+.header .icons button {
+  display: inline-block;
+  height: 4.5rem;
+  width: 4.5rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+  line-height: 4.5rem;
+  text-align: center;
+  font-size: 2rem;
+  background: #eee;
+}
+.header .icons button .fa-icon {
+  color: var(--black);
+  transition-duration: 0s;
+}
+.header .icons button:hover .fa-icon {
+  color: #fff;
+}
+.header .icons button:hover {
+  background: var(--orange);
+}
+
+.header .icons #menu-btn {
+  display: none;
+}
