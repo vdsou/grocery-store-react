@@ -9,6 +9,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import SearchForm from './SearchForm';
 import ShoppingCart from './ShoppingCart';
+import UserForm from './UserForm';
 import './Header.css';
 
 export default function Header() {
@@ -44,6 +45,7 @@ export default function Header() {
       </div>
       <SearchForm />
       <ShoppingCart />
+      <UserForm />
     </header>
   );
 }
