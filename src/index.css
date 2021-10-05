@@ -22,3 +22,14 @@
 html {
   font-size: 62.5%;
 }
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  color: var(--light-color);
+  border: 0.2rem solid var(--black);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: none;
+}
