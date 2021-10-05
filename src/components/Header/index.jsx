@@ -40,6 +40,12 @@ export default function index() {
           <FontAwesomeIcon className="fa-icon" icon={faUser} />
         </button>
       </div>
+      <form action="" className="search-form">
+        <label htmlFor="search-box">
+          <input type="search" placeholder="search here..." id="search-box" />
+          <FontAwesomeIcon className="search-icon" icon={faSearch} />
+        </label>
+      </form>
     </header>
   );
 }
