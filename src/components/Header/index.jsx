@@ -7,9 +7,11 @@ import {
   faShoppingCart,
   faUser,
 } from '@fortawesome/free-solid-svg-icons';
-import './style.css';
+import SearchForm from './SearchForm';
+import ShoppingCart from './ShoppingCart';
+import './Header.css';
 
-export default function index() {
+export default function Header() {
   return (
     <header className="header">
       <a href="/" className="logo">
@@ -40,12 +42,8 @@ export default function index() {
           <FontAwesomeIcon className="fa-icon" icon={faUser} />
         </button>
       </div>
-      <form action="" className="search-form">
-        <label htmlFor="search-box">
-          <input type="search" placeholder="search here..." id="search-box" />
-          <FontAwesomeIcon className="search-icon" icon={faSearch} />
-        </label>
-      </form>
+      <SearchForm />
+      <ShoppingCart />
     </header>
   );
 }
