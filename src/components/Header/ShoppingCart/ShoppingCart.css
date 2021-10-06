@@ -6,6 +6,7 @@
   border-radius: 0.5rem;
   width: 30rem;
   box-shadow: var(--box-shadow);
+  background: #fff;
 }
 .header .shopping-cart.active {
   right: 5rem;

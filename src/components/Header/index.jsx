@@ -16,14 +16,25 @@ export default function Header() {
   const [activeSearch, setActiveSearch] = useState(false);
   const [activeShoppingCart, setActiveShoppingCart] = useState(false);
   const [activeUserForm, setActiveUserForm] = useState(false);
+  window.onscroll = () => {
+    setActiveUserForm(false);
+    setActiveShoppingCart(false);
+    setActiveSearch(false);
+  };
   const handleSearchButton = () => {
     setActiveSearch(!activeSearch);
+    setActiveShoppingCart(false);
+    setActiveUserForm(false);
   };
   const handleShoppingCartButton = () => {
     setActiveShoppingCart(!activeShoppingCart);
+    setActiveSearch(false);
+    setActiveUserForm(false);
   };
   const handleUserFormButton = () => {
     setActiveUserForm(!activeUserForm);
+    setActiveSearch(false);
+    setActiveShoppingCart(false);
   };
   return (
     <header className="header">

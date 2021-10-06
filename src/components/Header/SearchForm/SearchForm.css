@@ -17,6 +17,7 @@
   text-transform: none;
   padding: 0 1.5rem;
   font-size: 1.6rem;
+  border-radius: 0.5rem;
 }
 .header .search-form label {
   display: flex;
