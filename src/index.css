@@ -33,3 +33,10 @@ html {
   cursor: pointer;
   background: none;
 }
+section,
+foooter {
+  padding: 2rem 9%;
+}
+body {
+  background: #eee;
+}
