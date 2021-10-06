@@ -1,0 +1,43 @@
+.header .shopping-cart {
+  position: absolute;
+  top: 110%;
+  right: -110%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 30rem;
+  box-shadow: var(--box-shadow);
+}
+.header .shopping-cart.active {
+  right: 5rem;
+}
+
+.header .shopping-cart .box {
+  display: flex;
+  gap: 1;
+  align-items: center;
+  margin: 1rem 0;
+  position: relative;
+}
+.header .shopping-cart .box img {
+  height: 10rem;
+}
+.header .shopping-cart .box .content h3 {
+  color: var(--black);
+  font-size: 1.9rem;
+}
+.header .shopping-cart .box .content span {
+  color: var(--light-color);
+  font-size: 1.6rem;
+}
+.header .shopping-cart .box .content .quantity {
+  margin-left: 1rem;
+}
+.header .shopping-cart .box .trash-icon {
+  position: absolute;
+  top: 50%;
+  right: 1.2rem;
+  color: var(--light-color);
+  font-size: 2rem;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
