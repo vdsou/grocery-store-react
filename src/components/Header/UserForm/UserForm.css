@@ -1,11 +1,13 @@
 .header .user-form {
   position: absolute;
-  top: 100%;
+  top: 110%;
   right: -110%;
   width: 35rem;
   border-radius: 0.5rem;
   text-align: center;
   padding: 2rem;
+  background: #fff;
+
 }
 .header .user-form.active {
   right: 5rem;
