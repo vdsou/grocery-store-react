@@ -1,0 +1,38 @@
+.header .user-form {
+  position: absolute;
+  top: 100%;
+  right: -110%;
+  width: 35rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+.header .user-form.active {
+  right: 5rem;
+}
+.header .user-form h3 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: var(--black);
+}
+.header .user-form .box input {
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 1.6rem;
+  text-transform: none;
+  color: var(--black);
+  padding: 1rem;
+  background: #eee;
+  border-radius: 0.5rem;
+}
+.header .user-form p {
+  font-size: 1.4rem;
+  color: var(--light-color);
+}
+.header .user-form p a {
+  color: var(--orange);
+  text-decoration: underline;
+}
+.header .user-form button:hover {
+  background: var(--orange);
+}

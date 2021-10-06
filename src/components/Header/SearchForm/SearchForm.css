@@ -1,0 +1,36 @@
+.header .search-form {
+  position: absolute;
+  top: 110%;
+  right: -110%;
+  height: 5rem;
+  width: 50rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+.header .search-form.active {
+  right: 5rem;
+}
+.header .search-form #search-box {
+  height: 100%;
+  width: 100%;
+  text-transform: none;
+  padding: 0 1.5rem;
+  font-size: 1.6rem;
+}
+.header .search-form label {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  overflow: hidden;
+}
+.header .search-form .search-icon {
+  font-size: 3.5rem;
+  padding-right: 1.5rem;
+  color: var(--black);
+  cursor: pointer;
+  font-weight: bold;
+}
+.header .search-form .search-icon:hover {
+  color: var(--orange);
+}
