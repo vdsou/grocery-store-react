@@ -32,8 +32,7 @@ export default function Blogs() {
             </div>
             <h3>Fresh And Organic Vegetables And Fruits</h3>
             <p>
-              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
-              Aspernatur Culpa, Deserunt Vel Rerum Quidem Ducimus?
+              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Veniam, Expedita.
             </p>
             <a href="/" className="btn">
               read more
@@ -59,8 +58,7 @@ export default function Blogs() {
             </div>
             <h3>Fresh And Organic Vegetables And Fruits</h3>
             <p>
-              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
-              Aspernatur Culpa, Deserunt Vel Rerum Quidem Ducimus?
+              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Veniam, Expedita.
             </p>
             <a href="/" className="btn">
               read more
@@ -86,8 +84,7 @@ export default function Blogs() {
             </div>
             <h3>Fresh And Organic Vegetables And Fruits</h3>
             <p>
-              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
-              Aspernatur Culpa, Deserunt Vel Rerum Quidem Ducimus?
+              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Veniam, Expedita.
             </p>
             <a href="/" className="btn">
               read more

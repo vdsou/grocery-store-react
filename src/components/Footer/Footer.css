@@ -1,0 +1,77 @@
+.footer {
+  background: #fff;
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+}
+.footer .box-container h3 {
+  color: var(--black);
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+.footer .box-container p {
+  line-height: 1.8;
+  font-size: 1.5rem;
+  color: var(--light-color);
+  margin: 1rem 0;
+}
+.footer .box-container .share a {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 0.4rem;
+}
+.footer .box-container .share a i {
+  border-radius: 0.5rem;
+  background: #eee;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 4rem;
+  height: inherit;
+  width: inherit;
+  display: inline-block;
+}
+.footer .box-container .share a i .fa-icon {
+  transition-duration: 0s;
+  color: var(--black);
+}
+.footer .box-container .share a:hover i .fa-icon {
+  color: #fff;
+}
+.footer .box-container .share a:hover i {
+  background: var(--orange);
+}
+.footer .box-container .links {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+.footer .box-container #emailLink {
+  text-transform: none;
+}
+.footer .box-container .links i {
+  color: var(--orange);
+  padding-right: 0.5rem;
+}
+.footer .box-container .links:hover i {
+  padding-right: 2rem;
+}
+.footer .box-container input {
+  width: 100%;
+  margin: 0.7rem 0;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  background: #eee;
+  border-radius: 0.5rem;
+}
+.footer .box-container button:hover {
+  background: var(--orange);
+}
+.footer .box-container img {
+  margin-top: 2rem;
+  height: 3rem;
+  display: block;
+}
