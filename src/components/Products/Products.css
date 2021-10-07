@@ -1,0 +1,36 @@
+.products .products-slider {
+  padding: 1rem;
+}
+.products .products-slider:first-child {
+  margin-bottom: 1rem;
+}
+.products .products-slider .wrapper .box {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 3rem 2rem;
+  overflow: none;
+  text-align: center;
+  outline-offset: -1rem;
+  outline: var(--outline);
+  box-shadow: var(--box-shadow);
+}
+.products .products-slider .box:hover {
+  outline-offset: 0;
+  outline: var(--outline-hover);
+}
+.products .products-slider .box img {
+  height: 20rem;
+}
+.products .products-slider .box h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+.products .products-slider .box .price {
+  font-size: 2rem;
+  color: var(--light-color);
+}
+.products .products-slider .box .stars {
+  font-size: 1.7rem;
+  padding: 0.5rem 0;
+  color: var(--orange);
+}

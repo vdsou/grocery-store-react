@@ -40,3 +40,16 @@ foooter {
 body {
   background: #eee;
 }
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  color: var(--black);
+  padding: 2rem 0 3rem 0;
+}
+.heading span {
+  background: var(--orange);
+  color: #fff;
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0 100%, 7% 50%, 0 0);
+}

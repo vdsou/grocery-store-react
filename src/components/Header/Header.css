@@ -9,6 +9,7 @@
   right: 0;
   z-index: 9999;
   background: #fff;
+  box-shadow: var(--box-shadow);
 }
 .header .logo {
   font-size: 2.5rem;
