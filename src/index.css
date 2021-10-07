@@ -17,10 +17,13 @@
   box-sizing: border-box;
   text-decoration: none;
   border: none;
-  transition: all ease 0.2s;
+  transition: all linear 0.2s;
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
 }
 .btn {
   margin-top: 1rem;
@@ -34,7 +37,7 @@ html {
   background: none;
 }
 section,
-foooter {
+footer {
   padding: 2rem 9%;
 }
 body {

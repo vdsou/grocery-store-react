@@ -7,6 +7,7 @@
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: var(--box-shadow);
+  background: #fff;
 }
 .blogs .box-container .box img {
   object-fit: cover;
@@ -42,7 +43,7 @@
 }
 .blogs .box-container .box .content p {
   color: var(--light-color);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.8;
   padding: 0.5rem 0;
 }
