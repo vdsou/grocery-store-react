@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import Features from './components/Features';
 import Products from './components/Products';
 import Categories from './components/Categories';
+import Reviews from './components/Reviews';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Features />
       <Products />
       <Categories />
+      <Reviews />
     </div>
   );
 }
