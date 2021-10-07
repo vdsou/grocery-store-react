@@ -31,3 +31,6 @@
   font-size: 1.7rem;
   padding: 1rem 0;
 }
+.categories .box .btn:hover{
+  background: var(--orange);
+}
