@@ -5,6 +5,7 @@ import Features from './components/Features';
 import Products from './components/Products';
 import Categories from './components/Categories';
 import Reviews from './components/Reviews';
+import Blogs from './components/Blogs';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Products />
       <Categories />
       <Reviews />
+      <Blogs />
     </div>
   );
 }

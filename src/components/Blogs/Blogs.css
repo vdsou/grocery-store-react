@@ -1,0 +1,51 @@
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  gap: 1.5rem;
+}
+.blogs .box-container .box {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+.blogs .box-container .box img {
+  object-fit: cover;
+  height: 25em;
+  width: 100%;
+}
+.blogs .box-container .box .content {
+  padding: 2rem;
+}
+.blogs .box-container .box .content .icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--border);
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+.blogs .box-container .box .content .icons a {
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
+.blogs .box-container .box .content .icons a:hover {
+  color: var(--black);
+}
+.blogs .box-container .box .content .icons i {
+  color: var(--orange);
+  margin-right: 0.5rem;
+}
+.blogs .box-container .box .content h3 {
+  color: var(--black);
+  font-size: 2.2rem;
+  line-height: 1.8;
+  padding: 0.5rem 0;
+}
+.blogs .box-container .box .content p {
+  color: var(--light-color);
+  font-size: 1.2rem;
+  line-height: 1.8;
+  padding: 0.5rem 0;
+}
+.blogs .box-container .box .content .btn:hover {
+  background: var(--orange);
+}
