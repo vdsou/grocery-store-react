@@ -25,8 +25,6 @@ export default function Products() {
             slidesPerView={1}
             pagination={{ clickable: true }}
             centeredSlides
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             breakpoints={{
               0: {
                 slidesPerView: 1,
@@ -165,7 +163,6 @@ export default function Products() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              {' '}
               <div className="box">
                 <img src="image/product-7.png" alt="" />
                 <h3>fresh carrot</h3>
@@ -183,7 +180,6 @@ export default function Products() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              {' '}
               <div className="box">
                 <img src="image/product-8.png" alt="" />
                 <h3>green lemon</h3>

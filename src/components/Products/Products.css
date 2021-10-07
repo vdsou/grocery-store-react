@@ -1,9 +1,3 @@
-.products .products-slider {
-  padding: 1rem;
-}
-.products .products-slider:first-child {
-  margin-bottom: 1rem;
-}
 .products .products-slider .wrapper .box {
   background: #fff;
   border-radius: 0.5rem;
