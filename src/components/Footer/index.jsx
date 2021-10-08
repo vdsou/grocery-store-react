@@ -5,6 +5,7 @@ import {
   faEnvelope,
   faMapMarkerAlt,
   faPhone,
+  faShoppingBasket,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebookF,
@@ -20,7 +21,12 @@ export default function Footer() {
       <div className="box-container">
         <div className="box">
           <FontAwesomeIcon icon={['fas', 'faUser']} />
-          <h3>groco</h3>
+          <h3>
+            groco
+            <i>
+              <FontAwesomeIcon icon={faShoppingBasket} />
+            </i>
+          </h3>
           <p>
             Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Natus,
             Laudantium?
@@ -123,6 +129,15 @@ export default function Footer() {
           </button>
           <img src="image/payment.png" alt="" />
         </div>
+      </div>
+      <div className="credits">
+        <p>
+          Created By
+          {' '}
+          <span>Mr. Web Designer</span>
+          {' '}
+          | All Rights Reserved
+        </p>
       </div>
     </footer>
   );

@@ -47,6 +47,3 @@
   line-height: 1.8;
   padding: 0.5rem 0;
 }
-.blogs .box-container .box .content .btn:hover {
-  background: var(--orange);
-}

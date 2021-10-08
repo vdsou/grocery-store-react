@@ -30,11 +30,15 @@ html {
   display: inline-block;
   padding: 0.8rem 3rem;
   font-size: 1.7rem;
-  color: var(--light-color);
+  color: var(--black);
   border: 0.2rem solid var(--black);
   border-radius: 0.5rem;
   cursor: pointer;
   background: none;
+}
+.btn:hover {
+  color: #fff;
+  background: var(--orange);
 }
 section,
 footer {
@@ -55,4 +59,9 @@ body {
   display: inline-block;
   padding: 0.5rem 3rem;
   clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0 100%, 7% 50%, 0 0);
+}
+@media (max-width: 768px) {
+  .header .icons #menu-btn {
+    display: inline-block;
+  }
 }
