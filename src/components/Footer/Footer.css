@@ -10,6 +10,10 @@
   font-size: 2.5rem;
   padding: 1rem 0;
 }
+.footer .box-container h3 i {
+  margin-left: 1rem;
+  color: var(--orange);
+}
 .footer .box-container p {
   line-height: 1.8;
   font-size: 1.5rem;
@@ -74,4 +78,15 @@
   margin-top: 2rem;
   height: 3rem;
   display: block;
+}
+.footer .credits {
+  text-align: center;
+  margin: 1rem 0;
+  padding: 3rem 0;
+  border-top: var(--border);
+  font-size: 2rem;
+  color: var(--black);
+}
+.footer .credits span {
+  color: var(--orange);
 }
