@@ -10,6 +10,7 @@
 }
 .banner .content h3 {
   font-size: 3rem;
+  color: var(--black);
 }
 .banner .content span {
   color: var(--orange);

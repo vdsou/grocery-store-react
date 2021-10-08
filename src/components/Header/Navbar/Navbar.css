@@ -1,0 +1,34 @@
+.header .navbar a {
+  display: inline-block;
+  color: var(--black);
+  font-size: 1.7rem;
+  margin: 0 1rem;
+}
+.header .navbar.active {
+  right: 2rem;
+}
+.header .navbar a:hover {
+  color: var(--orange);
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: relative;
+  }
+  .header .icons #menu-btn {
+    display: inline-block;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 30rem;
+    background: #fff;
+    border-radius: 0.5rem;
+  }
+  .header .navbar a {
+    display: block;
+    font-size: 2rem;
+    margin: 2rem 2.5rem;
+  }
+}

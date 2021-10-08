@@ -20,25 +20,16 @@
   color: var(--orange);
   margin-right: 0.5rem;
 }
-.header .navbar a {
-  display: inline-block;
-  color: var(--black);
-  font-size: 1.7rem;
-  margin: 0 1rem;
-}
-.header .navbar a:hover {
-  color: var(--orange);
-}
 .header .icons button {
-  display: inline-block;
   height: 4.5rem;
   width: 4.5rem;
-  margin-left: 0.3rem;
-  cursor: pointer;
   line-height: 4.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
   text-align: center;
   font-size: 2rem;
   background: #eee;
+  border-radius: 0.5rem;
 }
 .header .icons button .fa-icon {
   color: var(--black);

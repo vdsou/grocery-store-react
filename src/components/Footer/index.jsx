@@ -117,7 +117,7 @@ export default function Footer() {
             <i>
               <FontAwesomeIcon icon={faArrowRight} />
             </i>
-            home
+            blogs
           </a>
         </div>
         <div className="box">

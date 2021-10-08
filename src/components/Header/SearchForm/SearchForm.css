@@ -9,7 +9,7 @@
   box-shadow: var(--box-shadow);
 }
 .header .search-form.active {
-  right: 5rem;
+  right: 2rem;
 }
 .header .search-form #search-box {
   height: 100%;
@@ -34,4 +34,9 @@
 }
 .header .search-form .search-icon:hover {
   color: var(--orange);
+}
+@media (max-width: 768px) {
+  .header .search-form {
+    width: 90%;
+  }
 }
