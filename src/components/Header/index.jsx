@@ -11,8 +11,10 @@ import SearchForm from './SearchForm';
 import ShoppingCart from './ShoppingCart';
 import UserForm from './UserForm';
 import './Header.css';
+import Navbar from './Navbar';
 
 export default function Header() {
+  const [activeMenu, setActiveMenu] = useState(false);
   const [activeSearch, setActiveSearch] = useState(false);
   const [activeShoppingCart, setActiveShoppingCart] = useState(false);
   const [activeUserForm, setActiveUserForm] = useState(false);
@@ -20,21 +22,31 @@ export default function Header() {
     setActiveUserForm(false);
     setActiveShoppingCart(false);
     setActiveSearch(false);
+    setActiveMenu(false);
+  };
+  const handleMenuButton = () => {
+    setActiveMenu(!activeMenu);
+    setActiveSearch(false);
+    setActiveShoppingCart(false);
+    setActiveUserForm(false);
   };
   const handleSearchButton = () => {
     setActiveSearch(!activeSearch);
     setActiveShoppingCart(false);
     setActiveUserForm(false);
+    setActiveMenu(false);
   };
   const handleShoppingCartButton = () => {
     setActiveShoppingCart(!activeShoppingCart);
     setActiveSearch(false);
     setActiveUserForm(false);
+    setActiveMenu(false);
   };
   const handleUserFormButton = () => {
     setActiveUserForm(!activeUserForm);
     setActiveSearch(false);
     setActiveShoppingCart(false);
+    setActiveMenu(false);
   };
   return (
     <header className="header">
@@ -44,16 +56,9 @@ export default function Header() {
         </i>
         groco
       </a>
-      <nav className="navbar">
-        <a href="#home">home</a>
-        <a href="#features">features</a>
-        <a href="#products">products</a>
-        <a href="#categories">categories</a>
-        <a href="#reviews">review</a>
-        <a href="#blogs">blogs</a>
-      </nav>
+      <Navbar active={activeMenu} />
       <div className="icons">
-        <button type="button" id="menu-btn">
+        <button type="button" id="menu-btn" onClick={handleMenuButton}>
           <FontAwesomeIcon className="fa-icon" icon={faBars} />
         </button>
         <button type="button" id="search-btn" onClick={handleSearchButton}>
